@@ -1,0 +1,424 @@
+{
+"items": [
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "host-ServicesLawtons",
+"kvSecretValue": "host=dev.services.lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "SMTP-ServicesLawtons",
+"kvSecretValue": "SMTP=192.168.101.61"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-NAME-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_NAME=sbyccdevpivpharmacy-mysql.mysql.database.azure.com"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PORT-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PORT=3306"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-MHCSI-BEN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_MHCSI_BEN=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-MHCSI-BEN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_MHCSI_BEN=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-CARD-ADMIN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_CARD_ADMIN=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-CARD-ADMIN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_CARD_ADMIN=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-CARD-DB-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_CARD_DB=discount_cards"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-RX-DEV-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_RX_DEV=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-RX-DEV-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_RX_DEV=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-LAWTONAPP-DB-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_LAWTONAPP_DB=lawtons_app"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "LAWTONS-RESTORE-DB-ServicesLawtons",
+"kvSecretValue": "LAWTONS_RESTORE_DB=lawtons_restore"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "LAWTONS-RESTORE-USER-ServicesLawtons",
+"kvSecretValue": "LAWTONS_RESTORE_USER=lawtons_restore"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "LAWTONS-RESTORE-PASSWORD-ServicesLawtons",
+"kvSecretValue": "LAWTONS_RESTORE_PASSWORD=lawtons_restore"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MHCSI-DEV-BENEFITS-DB-ServicesLawtons",
+"kvSecretValue": "MHCSI_DEV_BENEFITS_DB=mhcsi_benefits_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MHCSI-DEV-BENEFITS-USER-ServicesLawtons",
+"kvSecretValue": "MHCSI_DEV_BENEFITS_USER=benefits_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MHCSI-DEV-BENEFITS-PASSWORD-ServicesLawtons",
+"kvSecretValue": "MHCSI_DEV_BENEFITS_PASSWORD=benefits_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MHCSI-PROD-BENEFITS-DB-ServicesLawtons",
+"kvSecretValue": "MHCSI_PROD_BENEFITS_DB=mhcsi_benefits"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-LAWTON-ADMIN-BEN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_LAWTON_ADMIN_BEN=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-LAWTON-ADMIN-BEN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_LAWTON_ADMIN_BEN=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-CHALLENGE-DB-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_CHALLENGE_DB=activity_challenge"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-CHALLENGE-USER-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_CHALLENGE_USER=activity_challen"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-CHALLENGE-PASSWORD-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_CHALLENGE_PASSWORD=activity_challen"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-DEV-CHALLENGE-DB-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_DEV_CHALLENGE_DB=activity_challenge_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-DEV-CHALLENGE-USER-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_DEV_CHALLENGE_USER=ac_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BE-ACTIVE-DEV-CHALLENGE-PASSWORD-ServicesLawtons",
+"kvSecretValue": "BE_ACTIVE_DEV_CHALLENGE_PASSWORD=ac_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-ADMIN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_ADMIN=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-ADMIN-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_ADMIN=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-USER-LAWTON-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_USER_LAWTON=sqladmin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-PASSWORD-LAWTON-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_PASSWORD_LAWTON=Se1domTowTyping0wn"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MYSQL-SERVER-LAWTON-DB-ServicesLawtons",
+"kvSecretValue": "MYSQL_SERVER_LAWTON_DB=lawtons_site"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-USER-COMMON-ServicesLawtons",
+"kvSecretValue": "MSSQL_USER_COMMON=PivCommonApp"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-PASSWORD-COMMON-ServicesLawtons",
+"kvSecretValue": "MSSQL_PASSWORD_COMMON=HighDune@Ross4Rigidity"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-DATABASE-COMMON-ServicesLawtons",
+"kvSecretValue": "MSSQL_DATABASE_COMMON=sbyccdevPivCommon-db"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-SERVER-COMMON-ServicesLawtons",
+"kvSecretValue": "MSSQL_SERVER_COMMON=sbyccdevpivpharmacy-sql.database.windows.net"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BABY-BE-HEALTHY-USER-ServicesLawtons",
+"kvSecretValue": "BABY_BE_HEALTHY_USER=BABY_BE_HEALTHY"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BABY-BE-HEALTHY-PASS-ServicesLawtons",
+"kvSecretValue": "BABY_BE_HEALTHY_PASS=vewrE66uPheG"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BABY-BE-HEALTHY-DEV-USER-ServicesLawtons",
+"kvSecretValue": "BABY_BE_HEALTHY_DEV_USER=BABY_BE_HEALTHY"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "BABY-BE-HEALTHY-DEV-PASS-ServicesLawtons",
+"kvSecretValue": "BABY_BE_HEALTHY_DEV_PASS=vewrE66uPheG"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "TRAVEL-USER-ServicesLawtons",
+"kvSecretValue": "TRAVEL_USER=travel"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "TRAVEL-PASS-ServicesLawtons",
+"kvSecretValue": "TRAVEL_PASS=travel"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "TRAVEL-DEV-USER-ServicesLawtons",
+"kvSecretValue": "TRAVEL_DEV_USER=travel_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "TRAVEL-DEV-PASS-ServicesLawtons",
+"kvSecretValue": "TRAVEL_DEV_PASS=travel_dev"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "COMMON-USER-ServicesLawtons",
+"kvSecretValue": "COMMON_USER=common"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "COMMON-PASS-ServicesLawtons",
+"kvSecretValue": "COMMON_PASS=common"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-SERVER-ENROLL-ServicesLawtons",
+"kvSecretValue": "MSSQL_SERVER_ENROLL=sbyccdevpivpharmacy-sql.database.windows.net"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-DATABASE-ENROLL-ServicesLawtons",
+"kvSecretValue": "MSSQL_DATABASE_ENROLL=sbyccdevMHCSIWebEnrol-db"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-USER-ENROLL-ServicesLawtons",
+"kvSecretValue": "MSSQL_USER_ENROLL=MHCSIWebEnrolApp"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "MSSQL-PASSWORD-ENROLL-ServicesLawtons",
+"kvSecretValue": "MSSQL_PASSWORD_ENROLL=Daredev1lHill@ry!"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "API-AUTH-USERNAME-ServicesLawtons",
+"kvSecretValue": "API_AUTH_USERNAME=admin"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "API-AUTH-PASSWORD-ServicesLawtons",
+"kvSecretValue": "API_AUTH_PASSWORD=admin123"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "SITE-LINK-ServicesLawtons",
+"kvSecretValue": "SITE_LINK=https://services.lawtons.ca/"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "SITE-YEAR-ServicesLawtons",
+"kvSecretValue": "SITE_YEAR=2023"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "PROD-SITE-ServicesLawtons",
+"kvSecretValue": "PROD_SITE = http://lawdev.lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "PROD-SITE-PATH-ServicesLawtons",
+"kvSecretValue": "PROD_SITE_PATH = /www/lawdev.lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "Home-URL-ServicesLawtons",
+"kvSecretValue": "Home_URL = http://www.lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "PARTNER-CARD-EMAIL-ServicesLawtons",
+"kvSecretValue": "PARTNER_CARD_EMAIL=partnercard@lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "LAWTONS-SUPPORT-EMAIL-ServicesLawtons",
+"kvSecretValue": "LAWTONS_SUPPORT_EMAIL=app.support@lawtons.ca"
+}
+,
+{
+"resourceType": "Constant",
+"kvSecretOutputType": "PlainSecretValue",
+"kvSecretName": "SHOW-ERRORS-ServicesLawtons",
+"kvSecretValue": "SHOW_ERRORS=false"
+}
+]
+}
+
